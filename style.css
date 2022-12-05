@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+    align-items: center;
+    justify-items: center;
+    margin-top: 100px;
+}
+
+.card {
+    display: flex;
+    border: 20px;
+    border-radius: 10px;
+    max-width: 50%;
+    height: 50%;
+    margin: auto;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.details {
+    padding: 40px;
+}
+
+.productImage {
+    height: 60vh;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.perfume {
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.description {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+}
+
+.header {
+    font-family: 'Fraunces', serif;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.newPrice {
+    color: hsl(158, 36%, 37%);
+    font-family: 'Fraunces', serif;
+}
+
+.oldPrice {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+}
+
+.button {
+    padding: 10px 40px;
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 5px;
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    display: block;
+}
+
+@media screen and (max-width: 480px) {
+    .card {
+        display: block;
+    }
+}
